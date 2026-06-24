@@ -1,0 +1,13 @@
+risk_id,risk_theme,scenario,likelihood,impact,priority,treatment
+R-01,Supply chain disruption,Supplier or logistics disruption affects production and product availability,Medium,High,High,Reduce / Transfer
+R-02,OT/ICS manufacturing disruption,Connected manufacturing or production-support systems are disrupted by cyber activity,Medium,High,High,Reduce
+R-03,Third-party access exposure,Vendors have inconsistent access control logging or security review practices,Medium,High,High,Reduce
+R-04,Privilege creep,Users accumulate permissions beyond their job role over time,Medium,High,High,Reduce
+R-05,Weak account lifecycle management,Accounts are not consistently created reviewed modified or disabled,Medium,High,High,Reduce
+R-06,Mobile device exposure,Mobile devices lack consistent authorization encryption or configuration requirements,Medium,High,High,Reduce
+R-07,Incomplete audit records,Logs do not capture enough detail to support investigations or accountability,Medium,Medium,Moderate,Reduce
+R-08,Delayed audit review,Security-relevant logs are not reviewed quickly enough to detect unusual activity,Medium,High,High,Reduce
+R-09,Vulnerability management gaps,Security flaws are not identified tested remediated or tracked consistently,High,High,High,Reduce
+R-10,Software and firmware integrity risk,Unexpected changes to software firmware or configuration baselines go undetected,Medium,High,High,Reduce
+R-11,Incident response gaps,Lack of tested playbooks delays containment and recovery,Medium,High,High,Reduce
+R-12,Business continuity gaps,Critical operations lack tested continuity and recovery plans,Medium,Medium,Moderate,Reduce
